@@ -1,6 +1,9 @@
+
+
 // Function to update the total price based on selected options and quantity
 function updateTotalPrice() {
   // Get selected width and height values
+
 
   var feetWidth = parseFloat(document.getElementById("width-feet").value);
   var inchWidth = parseFloat(document.getElementById("width-inches").value);
