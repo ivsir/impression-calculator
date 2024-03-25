@@ -378,16 +378,11 @@
       // Calculate area, apply multipliers, and update the total price
 
       function calculatePrice(desiredSquareInches) {
-
-        // fetchProducts()
-        console.log(desiredSquareInches, "area")
         // Constants
-        const originalPrice = 12.99;
-        const priceIncreasePerSquareInch = 0.01743125; // Calculated to reach $2400 at 144,000 square inches
+        const priceIncreasePerSquareInch = 0.03935185; // Calculated to reach $2400 at 144,000 square inches
 
         // Calculate the new price based on the user's desired square inches
-        var newPrice = originalPrice + (desiredSquareInches * priceIncreasePerSquareInch);
-
+        var newPrice = desiredSquareInches * priceIncreasePerSquareInch
 
         console.log(newPrice, "price")
         return newPrice;
@@ -431,14 +426,11 @@
       // Calculate area, apply multipliers, and update the total price
 
       function calculatePrice(desiredSquareInches) {
-        console.log(desiredSquareInches, "area")
         // Constants
-        const originalPrice = 12.99;
-        const priceIncreasePerSquareInch = 0.01743125; // Calculated to reach $2400 at 144,000 square inches
+        const priceIncreasePerSquareInch = 0.04768519; // Calculated to reach $2400 at 144,000 square inches
 
         // Calculate the new price based on the user's desired square inches
-        var newPrice = originalPrice + (desiredSquareInches * priceIncreasePerSquareInch);
-
+        var newPrice = desiredSquareInches * priceIncreasePerSquareInch
 
         console.log(newPrice, "price")
         return newPrice;
